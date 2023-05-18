@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="stylesheet" href="style.css" />
     <script defer src="index.js"></script>
     <title>Bookmarks</title>
-</head>
-<body>
+  </head>
+  <body>
     <section>
-        <div>
-            <input type="text" id="url-input" placeholder="Your link">
-            <input type="text" id="name-input" placeholder="Your links name">
-            <button id="add-btn">Add Bookmark</button>
-        </div>
+      <div>
+        <label for="url">URL:</label>
+        <input type="text" name="url" id="url-input" placeholder="Your link" />
+        <label for="name">NAME:</label>
+        <input
+          type="text"
+          name="name"
+          id="name-input"
+          placeholder="Your links name"
+        />
+        <button id="add-btn">Add Bookmark</button>
+      </div>
     </section>
     <section>
-        <ul id="bookmark-list"></ul>
+      <ul id="bookmark-list"></ul>
     </section>
-    
-</body>
+  </body>
 </html>

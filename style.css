@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(136, 195, 255);
+  color: white;
+}
+
+span {
+  padding: 10px;
+}
+
+button,
+input {
+  border-radius: 20px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 30px;
+}
+
+button {
+  margin-left: 20px;
+}
